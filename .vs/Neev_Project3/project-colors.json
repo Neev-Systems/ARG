@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d2d1b415-8f6c-4b46-8f55-66ce98370417": {
+      "ProjectGuid": "d2d1b415-8f6c-4b46-8f55-66ce98370417",
+      "DisplayName": "DataLayer",
+      "ColorIndex": 0
+    },
+    "45e64df0-506d-4bde-b578-4cab6e945ba3": {
+      "ProjectGuid": "45e64df0-506d-4bde-b578-4cab6e945ba3",
+      "DisplayName": "DataAccessLayer",
+      "ColorIndex": 1
+    },
+    "2d400d4c-213f-4493-a958-7f41a59aab90": {
+      "ProjectGuid": "2d400d4c-213f-4493-a958-7f41a59aab90",
+      "DisplayName": "BusinessLayer",
+      "ColorIndex": 2
+    },
+    "afd1ac22-342b-4ad1-afb8-10f3f9d913cb": {
+      "ProjectGuid": "afd1ac22-342b-4ad1-afb8-10f3f9d913cb",
+      "DisplayName": "ServiceLayer.API",
+      "ColorIndex": 3
+    },
+    "6d3fcf93-6ebe-4a18-8cd2-ce003fb7f3b5": {
+      "ProjectGuid": "6d3fcf93-6ebe-4a18-8cd2-ce003fb7f3b5",
+      "DisplayName": "PresentationLayer.MVC",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

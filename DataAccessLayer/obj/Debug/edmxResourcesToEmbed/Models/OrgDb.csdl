@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AGRModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Attendance">
+    <Key>
+      <PropertyRef Name="attendanceId" />
+    </Key>
+    <Property Name="attendanceId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="checkIn" Type="DateTime" Precision="3" />
+    <Property Name="checkOut" Type="DateTime" Precision="3" />
+    <Property Name="totalHours" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="attendanceStatus" Type="Boolean" />
+    <Property Name="employeeId" Type="Int32" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Attendance_Employee" FromRole="Attendance" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="employeeId" />
+    </Key>
+    <Property Name="employeeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="employeeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dateOfJoin" Type="DateTime" Precision="3" />
+    <Property Name="verificationStatus" Type="Boolean" />
+    <Property Name="isDeleted" Type="Boolean" />
+    <Property Name="isManager" Type="Boolean" />
+    <Property Name="employeeRoleId" Type="Int32" />
+    <Property Name="attendanceId" Type="Int32" />
+    <Property Name="leaveId" Type="Int32" />
+    <Property Name="reportsId" Type="Int32" />
+    <NavigationProperty Name="Attendance" Relationship="Self.FK_Attendance_Employee" FromRole="Employee" ToRole="Attendance" />
+  </EntityType>
+  <EntityType Name="EmployeeRole">
+    <Key>
+      <PropertyRef Name="employeeRoleId" />
+    </Key>
+    <Property Name="employeeRoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="employeeRole1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Leave">
+    <Key>
+      <PropertyRef Name="leaveId" />
+    </Key>
+    <Property Name="leaveId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="statrtDate" Type="DateTime" Precision="3" />
+    <Property Name="endDate" Type="DateTime" Precision="3" />
+    <Property Name="totalDays" Type="Int32" />
+    <Property Name="leaveReason" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="employeeId" Type="Int32" />
+    <Property Name="employeeRoleId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Report">
+    <Key>
+      <PropertyRef Name="reportsId" />
+    </Key>
+    <Property Name="reportsId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="totalHours" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="reportStatus" Type="Boolean" />
+    <Property Name="dailyHours" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="employeeId" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_Attendance_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Attendance" Type="Self.Attendance" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="employeeId" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="attendanceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AGREntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Attendances" EntityType="Self.Attendance" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="EmployeeRoles" EntityType="Self.EmployeeRole" />
+    <EntitySet Name="Leaves" EntityType="Self.Leave" />
+    <EntitySet Name="Reports" EntityType="Self.Report" />
+    <AssociationSet Name="FK_Attendance_Employee" Association="Self.FK_Attendance_Employee">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Attendance" EntitySet="Attendances" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

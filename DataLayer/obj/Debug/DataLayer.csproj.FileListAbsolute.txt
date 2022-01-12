@@ -1,0 +1,11 @@
+D:\VS2022Projects\Neev_Project3\DataLayer\bin\Debug\DataLayer.dll
+D:\VS2022Projects\Neev_Project3\DataLayer\bin\Debug\DataLayer.pdb
+D:\VS2022Projects\Neev_Project3\DataLayer\bin\Debug\EntityFramework.dll
+D:\VS2022Projects\Neev_Project3\DataLayer\bin\Debug\EntityFramework.xml
+D:\VS2022Projects\Neev_Project3\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+D:\VS2022Projects\Neev_Project3\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\VS2022Projects\Neev_Project3\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+D:\VS2022Projects\Neev_Project3\DataLayer\obj\Debug\DataLayer.dll
+D:\VS2022Projects\Neev_Project3\DataLayer\obj\Debug\DataLayer.pdb
+D:\VS2022Projects\Neev_Project3\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\VS2022Projects\Neev_Project3\DataLayer\bin\Debug\EntityFramework.SqlServer.xml

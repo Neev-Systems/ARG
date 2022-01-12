@@ -1,0 +1,15 @@
+D:\VS2022Projects\Neev_Project3\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\VS2022Projects\Neev_Project3\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\VS2022Projects\Neev_Project3\BusinessLayer\bin\Debug\DataAccessLayer.dll
+D:\VS2022Projects\Neev_Project3\BusinessLayer\bin\Debug\DataLayer.dll
+D:\VS2022Projects\Neev_Project3\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\VS2022Projects\Neev_Project3\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+D:\VS2022Projects\Neev_Project3\BusinessLayer\bin\Debug\DataLayer.pdb
+D:\VS2022Projects\Neev_Project3\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\VS2022Projects\Neev_Project3\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\VS2022Projects\Neev_Project3\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\VS2022Projects\Neev_Project3\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\VS2022Projects\Neev_Project3\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\VS2022Projects\Neev_Project3\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\VS2022Projects\Neev_Project3\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+D:\VS2022Projects\Neev_Project3\BusinessLayer\bin\Debug\App.config

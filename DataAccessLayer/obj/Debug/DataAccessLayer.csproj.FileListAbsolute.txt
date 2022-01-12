@@ -1,0 +1,14 @@
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\bin\Debug\DataLayer.dll
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\bin\Debug\DataLayer.pdb
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\VS2022Projects\Neev_Project3\DataAccessLayer\bin\Debug\App.config
