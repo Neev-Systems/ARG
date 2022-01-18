@@ -30,7 +30,7 @@ namespace DataAccessLayer
         public void Update(Employee emp)
         {
             db.Entry(emp).State = System.Data.Entity.EntityState.Modified;
-            Save();
+            db.SaveChanges();
         }
         public void Delete(int id)
         {

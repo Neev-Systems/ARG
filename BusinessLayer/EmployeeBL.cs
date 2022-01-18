@@ -23,7 +23,7 @@ namespace BusinessLayer
         {
             return objDb.GetEmpById(id);
         }
-        public void Inser(Employee emp)
+        public void Insert(Employee emp)
         {
             objDb.Insert(emp);
         }
